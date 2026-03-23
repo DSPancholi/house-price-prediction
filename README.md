@@ -43,16 +43,25 @@ The dataset contains housing information with features such as:
 
 Column details:
 
-longitude: A measure of how far west a house is; a higher value is farther west
-latitude: A measure of how far north a house is; a higher value is farther north
-housingMedianAge: Median age of a house within a block; a lower number is a newer building
-totalRooms: Total number of rooms within a block
-totalBedrooms: Total number of bedrooms within a block
-population: Total number of people residing within a block
-households: Total number of households, a group of people residing within a home unit, for a block
-medianIncome: Median income for households within a block of houses (measured in tens of thousands of US Dollars)
-medianHouseValue: Median house value for households within a block (measured in US Dollars)
-oceanProximity: Location of the house w.r.t ocean/sea
+-longitude: A measure of how far west a house is; a higher value is farther west
+
+-latitude: A measure of how far north a house is; a higher value is farther north
+
+-housingMedianAge: Median age of a house within a block; a lower number is a newer building
+
+-totalRooms: Total number of rooms within a block
+
+-totalBedrooms: Total number of bedrooms within a block
+
+-population: Total number of people residing within a block-
+
+-households: Total number of households, a group of people residing within a home unit, for a block
+
+-medianIncome: Median income for households within a block of houses (measured in tens of thousands of US Dollars)
+
+-medianHouseValue: Median house value for households within a block (measured in US Dollars)
+
+-oceanProximity: Location of the house w.r.t ocean/sea
 
 ## 🛠️ Tools & Libraries Used
 
@@ -77,7 +86,7 @@ oceanProximity: Location of the house w.r.t ocean/sea
 - Generated descriptive statistics
 - Performed data visualization for feature understanding
 
-🔍 Key Insights from EDA
+## 🔍 Key Insights from EDA
 
 Dataset has numeric + one categorical feature (ocean_proximity)
 Only total_bedrooms has missing values
@@ -87,7 +96,7 @@ median_income is the strongest predictor
 High multicollinearity among room and population features
 
 
-🛠️ Preprocessing & Evaluation Plan
+## 🛠️ Preprocessing & Evaluation Plan
 
 Median imputation for missing values
 One-hot encoding for categorical feature
